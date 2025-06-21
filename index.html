@@ -6,25 +6,52 @@
   <style>
     body {
       font-family: sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
       background-color: #f3f3f3;
+      margin: 0;
+      padding: 2em;
+      box-sizing: border-box;
       text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      margin-top: 2em;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6em;
+    }
+
+    .italic {
+      font-style: italic;
+      margin-top: 1em;
+      font-size: 1em;
+      color: #555;
     }
   </style>
 </head>
 <body>
-  <div>
+  <div class="container">
     <h1>Willkommen auf nerne.de</h1>
     <p>Diese Domain gehört jetzt dir.</p>
     <p>Hier beginnt deine kreative Reise.</p>
-    <div style="text-align: center;">
-    <img src="images/nvifej.jpg" alt="Ein Foto von uns" style="max-width: 90%; height: auto; border-radius: 15px; box-shadow: 0 0 20px rgba(0,0,0,0.2);">
-    <p style="font-style: italic; margin-top: 1em;">Für dich – auf ewig festgehalten.</p>
-    </div>
 
+    <img src="images/nvifej.jpg" alt="Ein Foto von uns">
+    <p class="italic">Für dich – auf ewig festgehalten.</p>
   </div>
 </body>
 </html>
